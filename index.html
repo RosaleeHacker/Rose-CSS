@@ -3,17 +3,13 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Rose Style</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="rose-style.css">
 </head>
 <body>
+	<div class="main-body-wrapper maxWidth"  id="top">
 	<!--NAVIGATION BAR-->
 	
-	<!--HEADERS-->
-	<h1>Heading 1</h1>
-	<h2>Heading 2</h2>
-	<h3>Heading 3</h3>
-	<h4>Heading 4</h4>
-	<h5>Heading 5</h5>
-	<h6>Heading 6</h6>
 	<!--BUTTONS-->
 	
 	<!--CARDS-->
@@ -21,5 +17,67 @@
 	<!--FORMS-->
 	
 	<!--FOOTER-->
+
+    <!--nav bar-->
+    <nav id="navbarOn" class="navbar-main">
+            <ul>
+                <li><a href="#aboutHere">Headers</a></li>
+                <li><a href="#codeHere">About</a></li>
+                <li><a href="#contactHere">Content Bubble</a></li>
+            </ul>
+    </nav> 
+
+    <!--hamburger menu-->
+    <nav id="burgerOn" class="burger">
+      <a href="#" class="burger__button" id="burger-button">
+        <span class="burger__button__icon"></span>
+      </a>
+    </nav>
+
+    <!--HEADERS-->
+	<div class="rosePicWrapper">
+    <header class="titleCol">     
+        <div class="col">
+            <h1>Heading 1</h1>
+			<h2>Heading 2</h2>
+			<h3>Heading 3</h3>
+			<h4>Heading 4</h4>
+			<h5>Heading 5</h5>
+			<h6>Heading 6</h6>
+		</div>
+    </header>      
+    </div>
+      
+       
+    <!--about--> 
+    <article class="aboutWrapper" id="aboutHere">
+        <section class="aboutCol">
+            <div class="ab-col">
+                <span class="section-title">About</span>
+                <br>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+            </div>        
+        </section>
+    </article>   
+
+    <!--projects-->
+    <div id="codeHere" class="codeWrapper">  
+        <div class="projectTitle">
+            <span class="section-title">Content Bubbles</span>
+        </div> 
+        <section class="codeExamplesBox">
+            <div class="project">
+                <a id="appLink1" class="appSize" href="#" alt="Until Dawn Ionic App" target="_blank"><p>Your title</p></a>
+            </div>
+        </section>         
+    </div>     
+
+    <!--footer-->   
+    <footer class="footer">             
+            <div class="footerBottom">
+                <h4 class="item">&copy; Rosalee Hacker 2018</h4>
+            </div>               
+    </footer>                     
+</div>            
 </body>
 </html>
